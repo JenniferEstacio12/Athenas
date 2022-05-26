@@ -28,7 +28,7 @@ echo "  <tr>";
 echo "      <th>Nome</th>";
 echo "      <th>Cpf</th>";
 // echo "      <th>Data de nascimento</th>";
-echo "      <th>Sexo</th>";
+// echo "      <th>Sexo</th>";
 echo "      <th>Telefone</th>";
 echo "      <th>Situacao</th>";
 echo "      <th>Excluir</th>";

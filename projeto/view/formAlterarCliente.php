@@ -25,6 +25,9 @@ $cliente = $clienteDAO->findById( $idCliente );
                     <td><input type="text" name="nome" value="<?php echo $cliente["nome"] ?>"></td>
                 </tr>
                 <tr>
+                <td>E-mail:</td>
+                    <td><input type="email" name="email" id="email" value="<?php echo $cliente["email"] ?>"></td>
+                </tr>
                     <td>Cpf:</td>
                     <td><input type="text" name="cpf" id="cpf" value="<?php echo $cliente["cpf"] ?>"></td>
                 </tr>
@@ -35,6 +38,9 @@ $cliente = $clienteDAO->findById( $idCliente );
                 <tr>
                     <td>Telefone:</td>
                     <td><input type="text" name="tel" id=tel value="<?php echo $cliente["telefone"] ?>"></td>
+                </tr>
+                <td>Senha:</td>
+                    <td><input type="password" name="password" id="password" value="<?php echo $cliente["password"] ?>"></td>
                 </tr>
                 <tr>
                     <td colspan="2">

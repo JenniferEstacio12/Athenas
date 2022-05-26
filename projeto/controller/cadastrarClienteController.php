@@ -8,12 +8,12 @@ include '../js/funcao.php';
 $nome = $_POST["nome"];
 //$email    = $_POST["email"];
 $telefone = $_POST["tel"];
-//$password = $_POST["password"];
+$password = $_POST["password"];
 
 $clienteDTO = new ClienteDTO();
 //$clienteDTO->setId( $id );
 $clienteDTO->setNome( $nome );
-//$clienteDTO->setEmail( $email );
+$clienteDTO->setEmail( $email );
 $clienteDTO->setTelefone( $telefone );
 $clienteDTO->setPassword( $password );
 

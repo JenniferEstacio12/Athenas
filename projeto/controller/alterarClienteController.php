@@ -2,14 +2,14 @@
 require_once '../dto/ClienteDTO.php';
 require_once '../dao/ClienteDAO.php';
 
-$idCad = $_POST["id"];
+$id = $_POST["id"];
 $nome = $_POST["nome"];
 $email = $_POST["email"];
 $telefone = $_POST["telefone"];
 $password = $_POST["password"];
 
 $clienteDTO = new ClienteDTO();
-$clienteDTO->setId( $idCad );
+$clienteDTO->setId( $id );
 $clienteDTO->setNome( $nome );
 $clienteDTO->setEmail( $email );
 $clienteDTO->setTelefone( $telefone);
