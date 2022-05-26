@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<h1>teste</h1>
+
     <!-- Cabeçalho -->
     <div class="cab">
         <div class="logo"><img src="image/athena.png" class="img-logo"></div>
